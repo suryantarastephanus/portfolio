@@ -2,6 +2,13 @@
 
 use App\Models\User;
 
+beforeEach(function () {
+    config([
+        'services.turnstile.secret' => 'dummy-secret',
+        'services.turnstile.bypass_secret' => 'valid-test-token',
+    ]);
+});
+
 test('login fails when turnstile token is invalid', function () {
     $user = User::factory()->create();
 

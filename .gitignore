@@ -12,40 +12,40 @@
 #    /node_modules, /vendor, .env, dll.)
 # ==============================================================================
 
-# --- [MARK: Testing & Cache] ---
-# /.phpunit.cache
-# /.phpunit.result.cache
+# --- [Testing & Cache] ---
+/.phpunit.cache
+/.phpunit.result.cache
 
-# --- [MARK: Build & Assets Output] ---
-# /bootstrap/ssr
-# /public/fonts-manifest.dev.json
-# /public/hot
-# /public/storage
+# --- [Build & Assets Output] ---
+/bootstrap/ssr
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
 
-# --- [MARK: Dependencies] ---
-# /node_modules
-# /vendor
+# --- [Dependencies] ---
+/node_modules
+/vendor
 
-# --- [MARK: Storage & Keys] ---
-# /storage/*.key
-# /storage/pail
-# *.log
+# --- [Storage & Keys] ---
+/storage/*.key
+/storage/pail
+*.log
 
-# --- [MARK: Environment & Secrets] ---
-# .env
-# .env.backup
-# .env.production
-# /auth.json
+# --- [Environment & Secrets] ---
+.env
+.env.backup
+.env.production
+/auth.json
 
-# --- [MARK: OS & IDE Configurations] ---
-# .DS_Store
-# .phpactor.json
-# Homestead.json
-# Homestead.yaml
-# npm-debug.log
-# yarn-error.log
-# /.fleet
-# /.idea
-# /.nova
-# /.vscode
-# /.zed
+# --- [OS & IDE Configurations] ---
+.DS_Store
+.phpactor.json
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
